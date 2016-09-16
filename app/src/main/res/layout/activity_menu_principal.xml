@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="generic.muniapp.MenuPrincipal"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bienvenidos a MuniApp"
+        android:id="@+id/lblPresentacion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:textColor="@color/foreground_material_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Servicio de ayuda cuidadana"
+        android:id="@+id/lblSubtitulo"
+        android:layout_below="@+id/lblPresentacion"
+        android:layout_alignLeft="@+id/lblPresentacion"
+        android:layout_alignStart="@+id/lblPresentacion"
+        android:typeface="normal"
+        android:textStyle="italic"
+        android:textColor="@color/foreground_material_dark"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Realizá tus reclamos las 24 horas del día, en forma gratuita."
+        android:id="@+id/lblDetalle"
+        android:layout_below="@+id/lblSubtitulo"
+        android:layout_alignLeft="@+id/lblSubtitulo"
+        android:layout_alignStart="@+id/lblSubtitulo"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textColor="@color/foreground_material_dark"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignRight="@+id/lblDetalle"
+        android:layout_alignEnd="@+id/lblDetalle"
+        android:elevation="0dp" />
+    <Button
+        android:id="@+id/btnNuevoReclamo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bk_boton_plano"
+        android:stateListAnimator="@null"
+        android:text="Nuevo Reclamo"
+        android:layout_below="@+id/lblDetalle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/lblDetalle"
+        android:layout_alignEnd="@+id/lblDetalle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bk_boton_plano"
+        android:stateListAnimator="@null"
+        android:text="Mi Perfil"
+        android:layout_below="@+id/btnHistorial"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnHistorial"
+        android:layout_alignEnd="@+id/btnHistorial"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bk_boton_plano"
+        android:stateListAnimator="@null"
+        android:text="Historial"
+        android:layout_below="@+id/btnInstrucciones"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnInstrucciones"
+        android:layout_alignEnd="@+id/btnInstrucciones"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:id="@+id/btnInstrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bk_boton_plano"
+        android:stateListAnimator="@null"
+        android:text="Instrucciones"
+        android:layout_below="@+id/btnNuevoReclamo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnNuevoReclamo"
+        android:layout_alignEnd="@+id/btnNuevoReclamo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:src="@drawable/ayuda"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        app:elevation="6dp"
+
+        />
+</RelativeLayout>
+
