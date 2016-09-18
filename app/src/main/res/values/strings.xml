@@ -16,7 +16,7 @@
     </string>
     <string name="title_activity_menu_principal">Menu Principal</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_categoria_solicitud">CategoriaSolicitud</string>
+    <string name="title_activity_categoria_solicitud">Selecciona una categoría:</string>
     <string name="aboutustext">
         "Desarrollo de aplicaciones móviles.\n\n"
 
