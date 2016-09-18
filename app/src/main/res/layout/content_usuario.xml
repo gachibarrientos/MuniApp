@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="generic.muniapp.Usuario"
+    tools:showIn="@layout/activity_usuario">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:baselineAligned="false"
+        android:elevation="6dp"
+        android:id="@+id/layoutUsuario"
+        android:measureWithLargestChild="true"
+        android:nestedScrollingEnabled="false">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgUsuario"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Usuario"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Nombre de usuario"
+            android:id="@+id/txtUserProfile"
+            android:textSize="20dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Email"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Direccion de email"
+            android:id="@+id/txtUserEmail"
+            android:textSize="20dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Genero"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="M o F"
+            android:id="@+id/txtUserGenero"
+            android:textSize="20dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Subscripción a notificaciones informativas"
+            android:textSize="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp" />
+     <Switch
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

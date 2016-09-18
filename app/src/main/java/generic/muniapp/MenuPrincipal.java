@@ -1,8 +1,10 @@
 package generic.muniapp;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,5 +32,19 @@ public class MenuPrincipal extends AppCompatActivity {
         btnHistorial.setTypeface(miPropiaTypeFace);
         Button btnPerfil= (Button) findViewById(R.id.btnPerfil);
         btnPerfil.setTypeface(miPropiaTypeFace);
+
+        btnPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ingresarPerfil();
+            }
+
+
+        });
+    }
+
+    private void ingresarPerfil() {
+        Intent i = new Intent(MenuPrincipal.this, Usuario.class);
+        startActivity(i);
     }
 }

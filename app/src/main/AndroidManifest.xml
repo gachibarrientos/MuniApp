@@ -27,7 +27,15 @@
             android:name=".AboutUs"
             android:label="@string/title_activity_about_us"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CategoriaSolicitud"></activity>
+        <activity android:name=".CategoriaSolicitud" />
+        <activity
+            android:name=".Usario"
+            android:label="@string/title_activity_usario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Usuario"
+            android:label="@string/title_activity_usuario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
