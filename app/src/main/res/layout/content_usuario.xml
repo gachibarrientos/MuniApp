@@ -40,7 +40,7 @@
             android:text="Nombre de usuario"
             android:id="@+id/txtUserProfile"
             android:textSize="20dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp" />
         <TextView
             android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
             android:text="Direccion de email"
             android:id="@+id/txtUserEmail"
             android:textSize="20dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp" />
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:text="M o F"
             android:id="@+id/txtUserGenero"
             android:textSize="20dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp" />
         <TextView
             android:layout_width="wrap_content"

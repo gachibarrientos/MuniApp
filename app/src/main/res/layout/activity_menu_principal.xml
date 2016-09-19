@@ -55,7 +55,7 @@
     <Button
         android:id="@+id/btnNuevoReclamo"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:textColor="@android:color/white"
         android:background="@drawable/bk_boton_plano"
         android:stateListAnimator="@null"
@@ -66,11 +66,12 @@
         android:layout_alignRight="@+id/lblDetalle"
         android:layout_alignEnd="@+id/lblDetalle"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="true" />
     <Button
         android:id="@+id/btnPerfil"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:textColor="@android:color/white"
         android:background="@drawable/bk_boton_plano"
         android:stateListAnimator="@null"
@@ -85,7 +86,7 @@
     <Button
         android:id="@+id/btnHistorial"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:textColor="@android:color/white"
         android:background="@drawable/bk_boton_plano"
         android:stateListAnimator="@null"
@@ -96,11 +97,12 @@
         android:layout_alignRight="@+id/btnInstrucciones"
         android:layout_alignEnd="@+id/btnInstrucciones"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="true" />
     <Button
         android:id="@+id/btnInstrucciones"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:textColor="@android:color/white"
         android:background="@drawable/bk_boton_plano"
         android:stateListAnimator="@null"
@@ -112,7 +114,7 @@
         android:layout_alignEnd="@+id/btnNuevoReclamo"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -130,7 +132,8 @@
         android:background="@color/colorPrimaryDark"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
 
