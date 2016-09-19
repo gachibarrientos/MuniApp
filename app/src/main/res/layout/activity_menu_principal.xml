@@ -116,24 +116,15 @@
         android:layout_marginBottom="10dp"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+    <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:text="Sector Publicidades"
-        android:id="@+id/textView2"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/btnPerfil"
-        android:layout_alignEnd="@+id/btnPerfil"
-        android:elegantTextHeight="false"
-        android:textStyle="italic"
-        android:textSize="25dp"
-        android:background="@color/colorPrimaryDark"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:typeface="serif"
-        android:layout_alignParentEnd="true" />
+        android:src="@drawable/ads"
+        android:scaleType="fitXY" />
 
 </RelativeLayout>
 

@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Sombra -->
     <item android:top="4dp">
         <shape>
-            <solid android:color="#FF7043" />
+            <solid android:color="@color/colorAccent" />
             <corners android:radius="4dip" />
         </shape>
     </item>
-    <!-- Contenido -->
     <item android:bottom="4dp">
         <shape>
-            <solid android:color="#FF8A65" />
+            <solid android:color="@color/colorPrimaryDark" />
             <corners android:radius="4dip" />
         </shape>
     </item>

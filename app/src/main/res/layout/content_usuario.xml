@@ -21,7 +21,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@drawable/usuario"
             android:id="@+id/imgUsuario"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal" />
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:text="Nombre de usuario"
+            android:text="muniapp"
             android:id="@+id/txtUserProfile"
             android:textSize="20dp"
             android:layout_marginBottom="10dp"
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:text="Direccion de email"
+            android:text="muniapp@gmail.com"
             android:id="@+id/txtUserEmail"
             android:textSize="20dp"
             android:layout_marginBottom="10dp"
