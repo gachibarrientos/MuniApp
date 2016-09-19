@@ -38,13 +38,21 @@ public class MenuPrincipal extends AppCompatActivity {
             public void onClick(View v) {
                 ingresarPerfil();
             }
-
-
+        });
+        btnNuevoReclamo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ingresarSolicitud();
+            }
         });
     }
 
     private void ingresarPerfil() {
         Intent i = new Intent(MenuPrincipal.this, Usuario.class);
+        startActivity(i);
+    }
+    private void ingresarSolicitud() {
+        Intent i = new Intent(MenuPrincipal.this, Solicitud.class);
         startActivity(i);
     }
 }

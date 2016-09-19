@@ -24,6 +24,9 @@ public class SplashActivity extends Activity {
         subtituloSplash.setTypeface(miPropiaTypeFace);
         TextView txtLoading= (TextView) findViewById(R.id.txtLoading);
         txtLoading.setTypeface(miPropiaTypeFace);
+        TextView txtVersion= (TextView) findViewById(R.id.txtVersion);
+        txtVersion.setTypeface(miPropiaTypeFace);
+
         showBasicSplash();
         }
 
