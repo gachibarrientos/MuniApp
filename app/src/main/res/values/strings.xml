@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Muni App - Servicio de Ayuda Ciudadana</string>
-    <string name="title_activity_login">Sign in</string>
+    <!-- Nombre de la aplicacion-->
+    <string name="app_name">Muni App</string>
+
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -14,17 +15,23 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <!--Titulos de las actividades -->
     <string name="title_activity_menu_principal">Menu Principal</string>
-    <string name="action_settings">Settings</string>
     <string name="title_activity_categoria_solicitud">Selecciona una categoría:</string>
+    <string name="title_activity_about_us">Startup Tucuman</string>
+    <string name="title_activity_situacion_solicitud">Selecciona una situación</string>
+    <string name="title_activity_solicitud">Nueva Solicitud</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings -->
     <string name="aboutustext">
         "Desarrollo de aplicaciones móviles.\n\n"
 
         "Somos una pequeña Startup de San Miguel de Tucumán enfocada al desarrollo de aplicaciones"
         "móviles."
     </string>
-    <string name="title_activity_about_us">Startup Tucuman</string>
-    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -114,6 +121,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_usario">Usario</string>
     <string name="title_activity_usuario">Perfil</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+
+    <ProgressBar
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:text="Cargando..."
+        android:id="@+id/txtLoading"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MuniApp"
+        android:id="@+id/txtTituloSplash"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Servicio de Ayuda Ciudadana"
+        android:id="@+id/txtSubtituloSplash"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="60dp" />
+
+</FrameLayout>
